@@ -1,0 +1,25 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net10.0-windows</TargetFramework>
+    <UseWindowsForms>true</UseWindowsForms>
+    <PlatformTarget>x64</PlatformTarget>
+    <ApplicationIcon>Assets\MouseHoldFix.ico</ApplicationIcon>
+    <ApplicationManifest>app.manifest</ApplicationManifest>
+    <NeutralLanguage>en</NeutralLanguage>
+    <AssemblyTitle>MouseHoldFix</AssemblyTitle>
+    <Description>Repairs brief left-button releases during dragging. Local-only Windows tray utility.</Description>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\MouseHoldFix.Core\MouseHoldFix.Core.csproj" />
+    <EmbeddedResource Include="Assets\*.ico" />
+    <EmbeddedResource Include="..\..\LICENSE.txt" LogicalName="MouseHoldFix.License.txt" />
+    <EmbeddedResource Include="..\..\README.md" LogicalName="MouseHoldFix.Help.README.md" WithCulture="false" />
+    <EmbeddedResource Include="..\..\README.ja.md" LogicalName="MouseHoldFix.Help.README.ja.md" WithCulture="false" />
+    <EmbeddedResource Include="..\..\CHANGELOG.md" LogicalName="MouseHoldFix.Help.CHANGELOG.md" WithCulture="false" />
+    <EmbeddedResource Include="..\..\THIRD-PARTY-NOTICES.md" LogicalName="MouseHoldFix.Help.THIRD-PARTY-NOTICES.md" WithCulture="false" />
+    <EmbeddedResource Include="..\..\assets\screenshots\settings.en.png;..\..\assets\screenshots\tray-menu.en.png;..\..\assets\screenshots\diagnostics.en.png" WithCulture="false">
+      <LogicalName>MouseHoldFix.Help.assets/screenshots/%(Filename)%(Extension)</LogicalName>
+    </EmbeddedResource>
+  </ItemGroup>
+</Project>

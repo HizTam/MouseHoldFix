@@ -1,0 +1,20 @@
+{
+    "en":  {
+               "AlreadyRunning":  "MouseHoldFix {0} is already running.\nThe launcher selects {1}.\n\nChoose Exit from the running app\u0027s tray menu, then run {2} again.",
+               "UnknownVersion":  "unknown version",
+               "InvalidVersion":  "The selected release version is invalid. Check artifacts/current-version.txt.",
+               "VersionMismatch":  "The launcher selects {0}, but the executable reports {1}. Publish the selected version again.",
+               "BuildFirst":  "No executable was found for the selected release. Run scripts/Publish.ps1 first.",
+               "StartupExit":  "MouseHoldFix {0} exited during startup (exit code {1}).",
+               "StartFailed":  "MouseHoldFix could not start.\n\n{0}"
+           },
+    "ja":  {
+               "AlreadyRunning":  "MouseHoldFix {0} が起動中です。\nランチャーの起動先は {1} です。\n\n起動中のアプリをタスクトレイの「終了」で閉じてから、{2} をもう一度実行してください。",
+               "UnknownVersion":  "バージョン不明",
+               "InvalidVersion":  "起動先のバージョン番号が不正です。artifacts/current-version.txt を確認してください。",
+               "VersionMismatch":  "起動先は {0} ですが、実行ファイルのバージョンは {1} です。指定のバージョンを再生成してください。",
+               "BuildFirst":  "起動先の実行ファイルが見つかりません。先に scripts/Publish.ps1 を実行してください。",
+               "StartupExit":  "MouseHoldFix {0} が起動中に終了しました（終了コード {1}）。",
+               "StartFailed":  "MouseHoldFix を起動できませんでした。\n\n{0}"
+           }
+}

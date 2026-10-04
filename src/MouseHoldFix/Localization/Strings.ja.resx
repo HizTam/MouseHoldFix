@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <data name="SettingsHeading" xml:space="preserve"><value>設定</value></data>
+  <data name="DiagnosticsHeading" xml:space="preserve"><value>診断</value></data>
+  <data name="RepairSection" xml:space="preserve"><value>補正の動作</value></data>
+  <data name="OptionsSection" xml:space="preserve"><value>ログと起動</value></data>
+  <data name="SettingsSaveHint" xml:space="preserve"><value>保存すると変更が適用されます。</value></data>
+  <data name="AboutTitle" xml:space="preserve"><value>MouseHoldFix — バージョン情報</value></data>
+  <data name="VersionLabel" xml:space="preserve"><value>バージョン</value></data>
+  <data name="AuthorLabel" xml:space="preserve"><value>作者</value></data>
+  <data name="LicenseLabel" xml:space="preserve"><value>ライセンス</value></data>
+  <data name="LicenseInformation" xml:space="preserve"><value>ライセンス情報</value></data>
+  <data name="Close" xml:space="preserve"><value>閉じる</value></data>
+  <data name="RepairStatus" xml:space="preserve"><value>補正 · {0}</value></data>
+  <data name="MetricRepairs" xml:space="preserve"><value>修復回数</value></data>
+  <data name="MetricDrags" xml:space="preserve"><value>ドラッグ回数</value></data>
+  <data name="MetricGap" xml:space="preserve"><value>直近 Up → Down</value></data>
+  <data name="MetricFailures" xml:space="preserve"><value>送信失敗</value></data>
+  <data name="RecentEvents" xml:space="preserve"><value>直近のイベント</value></data>
+  <data name="DiagnosticsDetails" xml:space="preserve"><value>左押下／解除: {0} / {1}　解除候補: {2}　生成解除: {3}
+状態: {5}　診断ログ: {6}　ログの欠落: {4}</value></data>
+  <data name="SettingsTitle" xml:space="preserve"><value>MouseHoldFix — 設定</value></data>
+  <data name="DiagnosticsTitle" xml:space="preserve"><value>MouseHoldFix — 診断</value></data>
+  <data name="EnableRepair" xml:space="preserve"><value>補正を有効にする</value></data>
+  <data name="GraceLabel" xml:space="preserve"><value>解除を待つ時間</value></data>
+  <data name="GraceMenu" xml:space="preserve"><value>待機時間: {0} ms</value></data>
+  <data name="CurrentGrace" xml:space="preserve"><value>現在: {0} ms（任意の値）</value></data>
+  <data name="GraceHelp" xml:space="preserve"><value>初期値 15 ms ／ 1〜200 ms
+症状が収まる、できるだけ小さな値を使ってください。</value></data>
+  <data name="DragOnly" xml:space="preserve"><value>ドラッグ中だけ補正する（推奨）</value></data>
+  <data name="DiagnosticLogging" xml:space="preserve"><value>診断ログを記録する</value></data>
+  <data name="StartupCheckbox" xml:space="preserve"><value>Windows のログオン時に起動する</value></data>
+  <data name="Save" xml:space="preserve"><value>保存</value></data>
+  <data name="Cancel" xml:space="preserve"><value>キャンセル</value></data>
+  <data name="ExperimentalPrompt" xml:space="preserve"><value>ドラッグ限定を解除すると、通常クリックも待機時間だけ遅れ、素早いクリックが結合される場合があります。実験モードを使用しますか？</value></data>
+  <data name="ExperimentalTitle" xml:space="preserve"><value>実験モード</value></data>
+  <data name="SaveError" xml:space="preserve"><value>設定を保存できませんでした</value></data>
+  <data name="DiagnosticsHelp" xml:space="preserve"><value>補正 OFF は元の入力を記録するだけです。改善を試すときは補正とログを ON にしてください。gap / repair は Up→Down 間隔です。</value></data>
+  <data name="DiagnosticsRepairDisabled" xml:space="preserve"><value>補正は OFF です。入力をそのまま通すため、ドラッグの途切れは修復されません。</value></data>
+  <data name="DiagnosticsRepairActive" xml:space="preserve"><value>補正は ON です。設定した待機時間内の再押下でドラッグを継続できます。</value></data>
+  <data name="EnableRepairAndLogging" xml:space="preserve"><value>補正を有効にして記録</value></data>
+  <data name="OpenLogs" xml:space="preserve"><value>ログフォルダーを開く</value></data>
+  <data name="DeleteLogs" xml:space="preserve"><value>ログを削除</value></data>
+  <data name="DeletingLogs" xml:space="preserve"><value>ログフォルダーをゴミ箱へ移動しています…</value></data>
+  <data name="LogsDeleted" xml:space="preserve"><value>ログフォルダーをゴミ箱へ移動しました。</value></data>
+  <data name="NoLogsToDelete" xml:space="preserve"><value>削除するログフォルダーはありません。</value></data>
+  <data name="DeleteLogsError" xml:space="preserve"><value>ログを削除できませんでした: {0}</value></data>
+  <data name="StopLoggingBeforeDeleting" xml:space="preserve"><value>ログを削除する前に診断ログの記録を OFF にしてください。</value></data>
+  <data name="LogOperationBusy" xml:space="preserve"><value>ログの削除または設定の適用が完了してから、もう一度お試しください。</value></data>
+  <data name="InvalidLogFolder" xml:space="preserve"><value>削除できるのは本アプリの Logs フォルダーだけです。</value></data>
+  <data name="LinkedLogFolder" xml:space="preserve"><value>リンクになっているログフォルダーやファイルは削除できません。</value></data>
+  <data name="RecyclingUnavailable" xml:space="preserve"><value>ログフォルダーをゴミ箱に移動できませんでした。</value></data>
+  <data name="Enabled" xml:space="preserve"><value>有効</value></data>
+  <data name="Disabled" xml:space="preserve"><value>無効</value></data>
+  <data name="StateIdle" xml:space="preserve"><value>待機</value></data>
+  <data name="StatePressed" xml:space="preserve"><value>押下中</value></data>
+  <data name="StateDragging" xml:space="preserve"><value>ドラッグ中</value></data>
+  <data name="StatePendingRelease" xml:space="preserve"><value>解除待ち</value></data>
+  <data name="SettingsMenu" xml:space="preserve"><value>設定…</value></data>
+  <data name="DiagnosticsMenu" xml:space="preserve"><value>診断…</value></data>
+  <data name="StartupMenu" xml:space="preserve"><value>Windows 起動時に実行</value></data>
+  <data name="About" xml:space="preserve"><value>バージョン情報</value></data>
+  <data name="Exit" xml:space="preserve"><value>終了</value></data>
+  <data name="AboutText" xml:space="preserve"><value>MouseHoldFix {0}
+作者: {1}
+ライセンス: {2}
+{3}
+
+ドラッグ中の一瞬の左ボタン解除を補正します。
+Windows 10 / 11 ・ x64 ・ .NET 10
+
+通信・更新確認・キーボード入力の取得は行いません。
+設定や操作方法は付属の README を参照してください。</value></data>
+  <data name="StartupNotification" xml:space="preserve"><value>タスクトレイで動作中です。右クリックで設定や診断を開けます。</value></data>
+  <data name="SettingsBusy" xml:space="preserve"><value>設定を更新中です。少し待ってから再度保存してください。</value></data>
+  <data name="SmokeReadOnly" xml:space="preserve"><value>スモークテストでは設定を変更できません。</value></data>
+  <data name="StoppedTitle" xml:space="preserve"><value>MouseHoldFix — 補正を停止</value></data>
+  <data name="TrayText" xml:space="preserve"><value>MouseHoldFix {0} — {1} ({2} ms)</value></data>
+  <data name="StartError" xml:space="preserve"><value>MouseHoldFix を起動できませんでした</value></data>
+  <data name="HookInstallError" xml:space="preserve"><value>マウスフックを登録できませんでした。</value></data>
+  <data name="InjectionFailure" xml:space="preserve"><value>SendInput に失敗したため補正を停止しました。実際のボタンを一度押して離してください。</value></data>
+  <data name="StartupKeyError" xml:space="preserve"><value>Windows 自動起動の設定を開けませんでした。</value></data>
+  <data name="ExecutablePathError" xml:space="preserve"><value>実行ファイルの場所を取得できませんでした。</value></data>
+  <data name="StartupExeRequired" xml:space="preserve"><value>自動起動は MouseHoldFix.exe から起動した場合に設定できます。</value></data>
+  <data name="IconMissing" xml:space="preserve"><value>アプリのアイコンが見つかりません。</value></data>
+  <data name="HelpMenu" xml:space="preserve"><value>ヘルプ</value></data>
+  <data name="HelpTitle" xml:space="preserve"><value>MouseHoldFix — ヘルプ</value></data>
+  <data name="HelpContents" xml:space="preserve"><value>目次</value></data>
+  <data name="HelpBack" xml:space="preserve"><value>戻る</value></data>
+</root>

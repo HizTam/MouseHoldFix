@@ -1,0 +1,30 @@
+# Build output and local tooling.
+bin/
+obj/
+artifacts/
+.tools/
+
+# Local documents and validation.
+.private-docs/
+/docs/
+/tests/
+/scripts/Test-Smoke.ps1
+AG*.md
+
+# IDE state, logs and temporary files.
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+TestResults/
+*.trx
+*.log
+*.binlog
+*.tmp
+*.bak
+
+# Operating-system caches.
+.DS_Store
+Thumbs.db
+[Dd]esktop.ini

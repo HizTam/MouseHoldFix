@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{3DB36E53-41B3-49BE-8890-01CD191C1F11}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MouseHoldFix.Core", "src\MouseHoldFix.Core\MouseHoldFix.Core.csproj", "{6EDAE118-482A-4F4D-B2C7-5F5D2C44F2DF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MouseHoldFix", "src\MouseHoldFix\MouseHoldFix.csproj", "{84061BE4-F0EF-4AED-934D-5CB5E8D3D807}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6EDAE118-482A-4F4D-B2C7-5F5D2C44F2DF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6EDAE118-482A-4F4D-B2C7-5F5D2C44F2DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6EDAE118-482A-4F4D-B2C7-5F5D2C44F2DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6EDAE118-482A-4F4D-B2C7-5F5D2C44F2DF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{84061BE4-F0EF-4AED-934D-5CB5E8D3D807}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{84061BE4-F0EF-4AED-934D-5CB5E8D3D807}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{84061BE4-F0EF-4AED-934D-5CB5E8D3D807}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{84061BE4-F0EF-4AED-934D-5CB5E8D3D807}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{6EDAE118-482A-4F4D-B2C7-5F5D2C44F2DF} = {3DB36E53-41B3-49BE-8890-01CD191C1F11}
+		{84061BE4-F0EF-4AED-934D-5CB5E8D3D807} = {3DB36E53-41B3-49BE-8890-01CD191C1F11}
+	EndGlobalSection
+EndGlobal
